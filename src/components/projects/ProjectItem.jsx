@@ -1,6 +1,7 @@
+import ListChip from "../experience/ListChip";
 import ProjectHeader3 from "./ProjectHeader3";
 
-export default function ProjectItem({text, title, link, image}){
+export default function ProjectItem({text, title, link, image, listChips}){
   const srcSet = `${image.src} 1x, ${image.src} 2x`;
   return (
     <>
@@ -13,7 +14,11 @@ export default function ProjectItem({text, title, link, image}){
           <p className="mt-2 text-sm leading-normal">
             {text}
           </p>
-          
+          <ul className="mt-2 flex flex-wrap">
+            { listChips.map((chip, index) => (
+              <ListChip key={index} text={chip} />
+            ))}
+          </ul>
         </div>
         <img alt={image.alt} loading="lazy" width="200" height="48" decoding="async" data-nimg="1"
             className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={styles.img}

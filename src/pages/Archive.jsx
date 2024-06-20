@@ -28,8 +28,9 @@ export default function Archive(){
                     </tr>
                 </thead>
                 <tbody>
+                <ArchiveItem year={"2024"} project={"quiz-go-fast"} madeAt={""} builtWithChips={["SocketIO", "JavaScript", "NodeJS", "React", "Tailwind", "OpenAI"]} link={"https://quiz-go-fast.onrender.com/"}/>
                 <ArchiveItem year={"2024"} project={"chat-chat-chat"} madeAt={""} builtWithChips={["SocketIO", "JavaScript", "NodeJS", "React"]} link={"https://chat-chat-chat.onrender.com/"}/>
-                <ArchiveItem year={"2024"} project={"thinkFlash"} madeAt={""} builtWithChips={["OpenAI-API", "JavaScript", "NodeJS", "React", "MongoDB", "GraphQL"]} link={"https://thinkflash-0iex.onrender.com/"}/>
+                <ArchiveItem year={"2024"} project={"thinkFlash"} madeAt={""} builtWithChips={["OpenAI", "JavaScript", "NodeJS", "React", "MongoDB", "GraphQL"]} link={"https://thinkflash-0iex.onrender.com/"}/>
 
                 <ArchiveItem year={"2023"} project={"Decision Grid (Unity Package)"} madeAt={""} builtWithChips={["C#", "Unity"]} link={"https://github.com/LukeGarnsey/Decision_Grids"}/>
                 <ArchiveItem year={"2023"} project={"JSON Database (Unity Package)"} madeAt={""} builtWithChips={["C#", "Unity"]} link={"https://github.com/LukeGarnsey/json-database"}/>

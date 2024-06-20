@@ -16,7 +16,7 @@ export default function Spotlight(){
   }, []);
 
   const contStyles = {
-    background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(66, 66, 77, 0.3), transparent 80%`,
+    background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(29, 78, 216, 0.2), transparent 80%`,
     transition: 'background-color 0.3s ease-in-out'
   };
 

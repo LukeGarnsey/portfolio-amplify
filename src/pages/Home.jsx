@@ -11,13 +11,13 @@ export default function Home(){
     <>
         <Spotlight />
      
-        <a href="#content" className="absolute left-0 top-0 block -translate-x-full round-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracus-visible:translate-x-0"></a>
+        <a href="#content" className="absolute left-0 top-0 block -translate-x-full round-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppdercase tracus-visible:translate-x-0"></a>
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
-              <h1 className="text-4xl font-bold tracking-tight text-juni-200 sm:text-5xl"><a href="/">Luke Garnsey</a></h1>
-              <h2 className="mt-3 text-lg font-medium tracking-tight text-juni-500 sm:text-xl">Senior Software Engineer (Fullstack & Games)</h2>
-              <p className="mt-4 max-w-xs leading-normal text-juni-300">I create intuitive and innovative digital experiences that surpass user expectations.</p>
+              <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Luke Garnsey</a></h1>
+              <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Senior Software Engineer (Fullstack & Games)</h2>
+              <p className="mt-4 max-w-xs leading-normal">I create intuitive and innovative digital experiences that surpass user expectations.</p>
               <nav className="nav hidden lg:block" aria-label="In-page jump links">
                 <ul className="mt-16 w-max">
                   <li>
@@ -35,7 +35,7 @@ export default function Home(){
             <Experience />
             <Projects />
 
-            <footer className="max-w-md pb-16 text-sm text-citrus-500 sm:pb-0">
+            <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
               <p>
                 Site was coded in 
                 <a href="https://code.visualstudio.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
