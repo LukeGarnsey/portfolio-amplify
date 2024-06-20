@@ -1,0 +1,51 @@
+
+.overlay {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black overlay */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+.image-container{
+  width: 400px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+}
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+  
+}
+.title-overlay{
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  text-decoration: none;
+}
+.stack-overlay{
+ display: block;
+ padding-top: 15px;
+ text-align: center;
+ font-size: 24px;
+  text-decoration: none;
+}
+.portfolio-image{
+  width: 100%;
+  height: 100%;
+}
+.img-overlay {
+  width: 75px;
+  text-align: center;
+}
+.pixel-container{
+  position: absolute;
+  width: 400px;
+  height: 100%;
+}
+.image-container{
+  text-align: center;
+}

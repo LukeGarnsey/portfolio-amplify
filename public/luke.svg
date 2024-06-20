@@ -1,0 +1,8 @@
+<svg width="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="150" r="144"
+    stroke="Black" fill="Black" stroke-width="0"/>
+    <text x="100" y="190" font-size="200"
+     text-anchor="middle" fill="White">L</text>
+     <text x="185" y="230" font-size="200"
+     text-anchor="middle" fill="White">G</text>
+    </svg>

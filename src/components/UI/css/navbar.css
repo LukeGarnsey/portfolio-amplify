@@ -1,0 +1,18 @@
+.navbar-title-container {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 260px;
+  z-index: 0;
+}
+.navbar-title{
+  z-index: 1;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-title-container {
+    height: 145px;
+    width: 150px;
+  }
+}

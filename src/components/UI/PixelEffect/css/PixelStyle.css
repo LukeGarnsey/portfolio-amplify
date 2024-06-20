@@ -1,0 +1,27 @@
+.pixel-grid {
+  position: absolute;
+  padding-right: 15px;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 250px;
+}
+.pixel {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.068);
+  /* border: 2px solid rgba(0, 0, 0, 0.1); */
+  border-radius: 50%;
+}
+@keyframes shift {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(5px) translateX(5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
