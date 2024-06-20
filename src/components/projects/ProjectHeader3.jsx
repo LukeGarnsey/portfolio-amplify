@@ -12,7 +12,7 @@ export default function ProjectHeader3({link, text}){
             <span>
               {text}
               <span className="inline-block">
-              <IconAnimate />
+              <IconAnimate frontSVG=""/>
              </span>
             </span>
           </a>  

@@ -16,7 +16,7 @@ export default function ArchiveItem({year, project, madeAt, builtWithChips, link
                     <div className="block sm:hidden">
                         <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base" href={link} target="_blank" rel="noreferrer noopener" aria-label={label}>
                             {project}
-                            <IconAnimate />
+                            <IconAnimate frontSVG='../' />
                         </a>
                     </div>
                     <div className="hidden sm:block">{project}</div>
@@ -38,7 +38,7 @@ export default function ArchiveItem({year, project, madeAt, builtWithChips, link
                         { link !== undefined && (
                             <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm" href={link} target="_blank" rel="noreferrer noopener" aria-label={label}>
                                 {link}
-                                <IconAnimate />
+                                <IconAnimate frontSVG='../' />
                             </a>
                         )}
                     </li>

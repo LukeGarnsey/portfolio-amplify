@@ -12,7 +12,7 @@ export default function ExperienceHeader3({link, headerObject}){
             <span>
               {headerObject.job} · 
               <span className="inline-block">&nbsp;{headerObject.company}
-              <IconAnimate />
+              <IconAnimate frontSVG="" />
              </span>
             </span>
           </a>  
