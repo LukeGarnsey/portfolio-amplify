@@ -21,7 +21,7 @@ export default function Contact(){
     e.preventDefault();
     try{
       console.log(formData);
-      const response = await fetch('/send-email', {
+      const response = await fetch('https://7p2n3r0ce1.execute-api.us-east-1.amazonaws.com/prod/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ export default function Contact(){
 
   return (
     <div>
-      <h3>Contact</h3>
+      <h3>Contactefe</h3>
       <form onSubmit={handleSubmit}>
         <div className="form-group py-1">
           <label htmlFor="name" className="p-1">Name:</label>

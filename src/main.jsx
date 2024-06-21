@@ -5,7 +5,7 @@ import Archive from './pages/Archive.jsx';
 // import AboutMe from './components/pages/AboutMe.jsx';
 // import Portfolio from './components/pages/Portfolio.jsx';
 // import Resume from './components/pages/Resume.jsx';
-// import Contact from './components/pages/Contact.jsx';
+import Contact from './pages/Contact.jsx';
 import Home from './pages/Home.jsx';
 
 const router = createBrowserRouter([
@@ -25,10 +25,10 @@ const router = createBrowserRouter([
       //   path: '/Resume',
       //   element: <Resume />,
       // },
-      // {
-      //   path: '/Contact',
-      //   element: <Contact />,
-      // }
+      {
+        path: '/Contact',
+        element: <Contact />,
+      }
     ]
   }
 ]);
