@@ -1,12 +1,10 @@
 import IconAnimateBack from "../components/Animate/IconAnimateBack";
-import Spotlight from "../components/Animate/Spotlight";
 import ArchiveItem from "../components/archive/ArchiveItem";
 
 export default function Archive(){
 
     return (
     <>
-        <Spotlight />
         <div className="lg:py-24">
             <a className="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300" href="/">
                 <IconAnimateBack />

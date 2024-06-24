@@ -1,5 +1,4 @@
 import NavJumpItem from "../components/Animate/NavJumpItem";
-import Spotlight from "../components/Animate/Spotlight";
 import SocialList from "../components/SocialList";
 import About from "./About";
 import Experience from "./Experience";
@@ -9,8 +8,6 @@ export default function Home(){
   
   return (
     <>
-        <Spotlight />
-     
         <a href="#content" className="absolute left-0 top-0 block -translate-x-full round-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppdercase tracus-visible:translate-x-0"></a>
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">

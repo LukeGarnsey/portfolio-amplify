@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css';
+import Spotlight from './components/Animate/Spotlight';
 import './tailwind.css';
 import { Outlet } from 'react-router-dom'
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <div className='group/spotlight relative'>
+      <Spotlight />
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
           <Outlet />
         </div>
