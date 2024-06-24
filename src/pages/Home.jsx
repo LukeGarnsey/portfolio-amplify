@@ -3,6 +3,7 @@ import SocialList from "../components/SocialList";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 export default function Home(){
   
@@ -31,19 +32,19 @@ export default function Home(){
             <About />
             <Experience />
             <Projects />
-
-            <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+            <Contact />
+            <footer className="max-w-md mt-2 pb-16 text-sm text-slate-500 sm:pb-0">
               <p>
+                Serverless website hosted with Amplify, using AWS(Lambda, API Gateway, and SES).
                 Site was coded in 
                 <a href="https://code.visualstudio.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
                 rel="noreferrer noopener" aria-label="Visual Studio Code (opens in a new tab)"> Visual Studio Code </a> 
                 by me. Built with 
                 <a href="https://nodejs.org/en" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                rel="noreferrer noopener" aria-label="NodeJS (opens in a new tab)"> NodeJS</a>, <a href="https://react.dev/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                rel="noreferrer noopener" aria-label="React (opens in a new tab)"> React </a>
+                rel="noreferrer noopener" aria-label="NodeJS (opens in a new tab)"> NodeJS</a>,<a href="https://react.dev/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
+                rel="noreferrer noopener" aria-label="React (opens in a new tab)"> React</a>
                 , and <a href="https://tailwindcss.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
-                rel="noreferrer noopener" aria-label="Tailwind CSS (opens in a new tab)"> Tailwind CSS</a>
-                , deployed with Heroku.
+                rel="noreferrer noopener" aria-label="Tailwind CSS (opens in a new tab)"> Tailwind CSS.</a>
               </p>
               
             </footer>
