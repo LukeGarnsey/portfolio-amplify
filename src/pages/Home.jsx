@@ -35,7 +35,11 @@ export default function Home(){
             <Contact />
             <footer className="max-w-md mt-2 pb-16 text-sm text-slate-500 sm:pb-0">
               <p>
-                Serverless website hosted with Amplify, using AWS(Lambda, API Gateway, and SES).
+                Serverless website hosted with <a href="https://aws.amazon.com/amplify/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
+                rel="noreferrer noopener" aria-label="AWS Amplify (opens in a new tab)">Amplify</a>, using AWS (<a href="https://aws.amazon.com/lambda/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
+                  rel="noreferrer noopener" aria-label="AWS Lambda (opens in a new tab)">Lambda</a>, <a href="https://aws.amazon.com/api-gateway/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
+                  rel="noreferrer noopener" aria-label="AWS API Gateway (opens in a new tab)">API Gateway</a>, and <a href="https://aws.amazon.com/ses/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
+                  rel="noreferrer noopener" aria-label="AWS Simple Email Service (opens in a new tab)">SES</a>).
                 Site was coded in 
                 <a href="https://code.visualstudio.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank"
                 rel="noreferrer noopener" aria-label="Visual Studio Code (opens in a new tab)"> Visual Studio Code </a> 

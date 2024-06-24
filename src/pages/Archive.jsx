@@ -27,6 +27,7 @@ export default function Archive(){
                 </thead>
                 <tbody>
                 <ArchiveItem year={"2024"} project={"quiz-go-fast"} madeAt={""} builtWithChips={["SocketIO", "JavaScript", "NodeJS", "React", "Tailwind", "OpenAI"]} link={"https://quiz-go-fast.onrender.com/"}/>
+                <ArchiveItem year={"2024"} project={"Portfolio Website"} madeAt={""} builtWithChips={["AWS", "JavaScript", "NodeJS", "React", "Tailwind"]} link={"https://www.lukegarnsey.com/"}/>
                 <ArchiveItem year={"2024"} project={"chat-chat-chat"} madeAt={""} builtWithChips={["SocketIO", "JavaScript", "NodeJS", "React"]} link={"https://chat-chat-chat.onrender.com/"}/>
                 <ArchiveItem year={"2024"} project={"thinkFlash"} madeAt={""} builtWithChips={["OpenAI", "JavaScript", "NodeJS", "React", "MongoDB", "GraphQL"]} link={"https://thinkflash-0iex.onrender.com/"}/>
 
