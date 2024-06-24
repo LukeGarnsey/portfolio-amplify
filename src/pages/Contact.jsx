@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 
 export default function Contact(){
   const sentRef = useRef(false);
+  const updateSentTextRef = useRef("");
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -34,22 +35,30 @@ export default function Contact(){
       });
       if(response.ok){
         // console.log('Email Sent');
-        // sentRef.current.textContent = 'Email Sent';
+        updateSentTextRef.current.textContent = 'Thanks for reaching out! I will get back to you as soon as possible.';
+        setTimeout(()=>{
+          updateSentTextRef.current.textContent = '';
+          sentRef.current = false;
+        }, 5000);
         // Object.assign(sentRef.current.style,sent);
         setFormData({name:'', email:'', message:''});
-        sentRef.current = false;
+        
       }else{
         setFormData({name:'', email:'', message:''});
         sentRef.current = false;
-        // sentRef.current.textContent = 'Failed to send Email';
-        // sentRef.current.style = fail;
-        // console.log(response.message + ' Failed to send email');
+        updateSentTextRef.current.textContent = 'Something went wrong when sending.';
+        setTimeout(()=>{
+          updateSentTextRef.current.textContent = '';
+          sentRef.current = false;
+        }, 5000);
       }
     }catch(error){
       // console.error('Error:', error);
-      // sentRef.current.textContent = 'Failed to send Email';
-      // sentRef.current.style = fail;
-      sentRef.current = false;
+      updateSentTextRef.current.textContent = 'Something went wrong when sending.';
+      setTimeout(()=>{
+        updateSentTextRef.current.textContent = '';
+        sentRef.current = false;
+      }, 5000);
     }
   }
 
@@ -72,6 +81,7 @@ export default function Contact(){
         <button type="submit" className="my-3 bg-slate-500/50 p-2 text-teal-300 rounded">Send Email</button>
         
       </form>
+      <h4 ref={updateSentTextRef}></h4>
     </div>
   );
 }
